@@ -2,8 +2,6 @@ name: Main kittygram workflow
 
 on:
   push:
-    branches:
-      - main
 
 jobs:
   tests:
@@ -124,6 +122,12 @@ jobs:
           push: true
           tags: vovan46rus/kittygram_gateway:latest
 
+name: Deploy
+  on:
+    push:
+      branches:
+        - main
+  jobs:    
   deploy:
     runs-on: ubuntu-latest
     needs:
