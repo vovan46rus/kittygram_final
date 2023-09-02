@@ -47,4 +47,6 @@ docker compose -f docker-compose.yml exec backend cp -r /app/static_backend/. /b
 ```
 ### Автор 👨‍💻
 [Владимир Коваленко](https://github.com/vovan46rus)
-[связь в ТГ](https://t.me/icq609258000)
+
+### Cвязь 📡
+[Телеграм](https://t.me/icq609258000)
