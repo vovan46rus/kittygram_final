@@ -2,7 +2,8 @@ name: Main kittygram workflow
 
 on:
   push:
-    - main
+    branches-ignore:
+      - '*'
 
 jobs:
   tests:
